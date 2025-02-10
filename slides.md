@@ -13,12 +13,67 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 ---
 
-# Cas pratique RGPD
+<div class="flex flex-col items-top justify-top">
+  <h1>Cas pratique RGPD</h1>
+  <h2>Candidature au poste de développeur logiciel et DPO</h2>
+</div>
 
-Candidature au poste de développeur logiciel et DPO
+<p class="absolute bottom-2 right-2">
+  Dorian Jaguenaud, Théo Gillet
+</p>
+
 
 ---
 transition: fade-out
+level: 1
+---
+
+# Rappel du contexte
+
+<div class="grid grid-cols-2 gap-4">
+  <ul>
+    <h4>✓ Contexte entreprise :</h4>
+    <ul>
+      <li>15 salariés</li>
+      <li>Gestion de paie</li>
+      <li>Vidéosurveillance</li>
+      <li>Prospection LinkedIn</li>
+    </ul>
+  </ul>
+
+  <ul>
+    <h4>✓ Données à protéger :</h4>
+    <ul>
+      <li>Données des employés</li>
+      <li>Données clients</li>
+      <li>Données de paie</li>
+      <li>Images vidéosurveillance</li>
+      <li>Données professionnelles LinkedIn</li>
+    </ul>
+  </ul>
+
+  <ul>
+    <h4>✓ Poste à pourvoir :</h4>
+    <ul>
+      <li>Développeur logiciel paie</li>
+      <li>DPO</li>
+      <li>Maintenance</li>
+    </ul>
+  </ul>
+
+  <ul>
+    <h4>✓ Mission principale :</h4>
+    <ul>
+      <li>Mise en conformité RGPD</li>
+      <li>Protection des données</li>
+      <li>Prévention des sanctions</li>
+    </ul>
+  </ul>
+</div>
+
+---
+transition: fade-out
+level: 2
 ---
 
 # Qui sommes nous ?
@@ -111,7 +166,9 @@ level: 7
 
 # Applicatif et développement 
 
-<img class="w-full h-56" src="https://www.apixit.fr/wp-content/uploads/2022/02/APIXIT-cybersecurite-SASE-SSE-1024x585.jpg">
+<div class="flex justify-center">
+  <img class="rounded-lg" width=300 src="https://www.apixit.fr/wp-content/uploads/2022/02/APIXIT-cybersecurite-SASE-SSE-1024x585.jpg">
+</div>
 
 - Chiffrement systématique des données sensibles en base de données
 - Utilisation d'un gestionnaire de secrets sécurisé (comme HashiCorp Vault) pour la gestion des informations sensibles
